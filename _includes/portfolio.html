@@ -1,0 +1,7 @@
+<section class="portfolio">
+        {% for port in page.portfolio %}
+            {% if port.title %}
+                <p>{{ port.title }}</p>
+            {% endif %}
+        {% endfor %}
+</section>

@@ -1,0 +1,45 @@
+.hero-banner {
+    clear: both;
+    float: left;
+    margin: 0 auto;
+    max-height: 90vh;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    @media only screen and (max-width: $max-mobile-width) {
+        height: 100vh;
+    }
+    .hero-banner-image {
+        display: block;
+        height: auto;
+        filter: grayscale(100%);    
+        margin: 0 auto;
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+
+        @media only screen and (max-width: $max-mobile-width) and (orientation: portrait) {
+            height: 100%;
+            left: -50%;
+            max-width: none;
+            object-fit: contain;
+            right: 0;
+            width: auto;
+        }
+    }
+    .hero-banner-bg {
+
+    }   
+    .hero-banner-paragraph {
+        bottom: 0;
+        color: blue;
+        font-size: 24px;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 50%;
+    } 
+}

@@ -1,11 +1,7 @@
-@import "global/typography";
 @import "global/variables";
+@import "global/typography";
 @import "includes/footer";
 @import "includes/header";
+@import "includes/hero-banner";
 @import "layouts/page";
 @import "layouts/post";
-
-p {
-    font-size: 3em;
-    color: $color-primary;
-}
